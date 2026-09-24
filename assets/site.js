@@ -49,7 +49,7 @@ const t = {
     pm3: "Coverage",
     pm3v: "In-app and web privacy pages",
     pm4: "Effective date",
-    pm4v: "April 2026",
+    pm4v: "September 2026",
     pp1Title: "1) Location (GPS) Usage",
     pp1Body:
       "The app requests GPS access to determine your approximate position in Berlin. This is used for side detection (East/West), nearby photo matching, and nearby point discovery.",
@@ -60,14 +60,13 @@ const t = {
     pp2List2: "Show nearby photos, museums, memorials, landmarks, and viewpoints.",
     pp2List3: "Persist language and basic app preferences and understand audience segments.",
     pp3Title: "3) API Calls and Third Parties",
-    pp3Body:
-      "Map position and request parameters are sent to remote APIs to fetch historical photos and points of interest. API responses are used to render in-app content and anonymized analytics events.",
+    pp3Body: "To show nearby photos and places, the app sends the map position to our own server, which uses it only to answer that request. For anonymous usage statistics we use TelemetryDeck (TelemetryDeck GmbH, Germany). It receives which screens and features are used, never your location, name, contacts or photos.",
     pp4Title: "4) Data Categories",
     pp4Body:
       "The app limits collection to data needed for app operation and anonymized analytics.",
     pp4List1: "Approximate location (if location permission is granted).",
     pp4List2: "App language, device language, platform, and app version.",
-    pp4List3: "In-app request parameters and technical response metadata in aggregated form.",
+    pp4List3: "In-app request parameters and technical response metadata.",
     pp5Title: "5) Retention and Security",
     pp5Body:
       "We apply reasonable technical and organizational safeguards. We store coarse location buckets (not exact coordinate history) and retain analytics only as long as required for service and legal obligations.",
@@ -85,7 +84,7 @@ const t = {
       "This app includes third-party map and photo content. Source pages and license links are provided below.",
     sourcePageLabel: "source page",
     pp9Title: "10) Contact",
-    pp9Body: "For privacy questions, contact the app publisher through official channels.",
+    pp9Body: "For privacy questions or requests, email app@save-all.com.",
     supportTitle: "Support",
     supportLead: "Need help with Berlin Wall Explorer? Contact our support team.",
     supportContactTitle: "Contact Email",
@@ -94,7 +93,8 @@ const t = {
       "Please include your device model, OS version, and a short description of the issue.",
     supportResponseTitle: "Response Time",
     supportResponseBody: "We usually respond within 1-2 business days.",
-    updated: "Last updated: April 2026",
+    updated: "Last updated: September 2026",
+    pp4List4: "Anonymous usage statistics via TelemetryDeck: app language, which side of the Wall you are on (East, West, GDR, outside Berlin), roughly how far the Wall is, device model, system and app version. Your device is represented by a salted hash that cannot be traced back to you. No tracking across apps, no advertising.",
   },
   tr: {
     home: "Ana Sayfa",
@@ -130,7 +130,7 @@ const t = {
     pm3: "Kapsam",
     pm3v: "Uygulama içi ve web gizlilik sayfaları",
     pm4: "Yürürlük tarihi",
-    pm4v: "Nisan 2026",
+    pm4v: "Eylül 2026",
     pp1Title: "1) Konum (GPS) Kullanımı",
     pp1Body:
       "Uygulama, Berlin'deki yaklaşık konumunuzu belirlemek için GPS izni ister. Bu bilgi Doğu/Batı tespiti, yakın fotoğraf eşleştirme ve yakın nokta keşfi için kullanılır.",
@@ -141,8 +141,7 @@ const t = {
     pp2List2: "Yakındaki fotoğraf, müze, anıt, simge ve manzara noktalarını göstermek.",
     pp2List3: "Dil ve temel uygulama tercihlerini saklamak ve kitle segmentlerini anlamak.",
     pp3Title: "3) API Çağrıları ve Üçüncü Taraflar",
-    pp3Body:
-      "Harita konumu ve istek parametreleri, tarihi fotoğraflar ile ilgi noktalarını getirmek için uzak API'lere gönderilir. API yanıtları uygulama içeriğinin gösterilmesinde ve anonim analitik olaylarında kullanılır.",
+    pp3Body: "Yakındaki fotoğrafları ve mekânları göstermek için uygulama harita konumunu kendi sunucumuza gönderir; sunucu bu bilgiyi yalnızca o isteği yanıtlamak için kullanır. Anonim kullanım istatistikleri için TelemetryDeck (TelemetryDeck GmbH, Almanya) kullanıyoruz. Ona yalnızca hangi ekranların ve özelliklerin kullanıldığı gider; konumun, adın, kişilerin ya da fotoğrafların asla gitmez.",
     pp4Title: "4) Veri Kategorileri",
     pp4Body:
       "Uygulama, yalnızca hizmetin çalışması ve anonim analitik için gerekli olan verileri toplar ve işler.",
@@ -166,7 +165,7 @@ const t = {
       "Bu uygulama üçüncü taraf harita ve fotoğraf içerikleri içerir. Kaynak sayfaları ve lisans bağlantıları aşağıda verilmiştir.",
     sourcePageLabel: "kaynak sayfası",
     pp9Title: "10) İletişim",
-    pp9Body: "Gizlilik soruları için resmi kanallar üzerinden yayıncıya ulaşabilirsiniz.",
+    pp9Body: "Gizlilikle ilgili soru ve talepler için app@save-all.com adresine yazabilirsin.",
     supportTitle: "Destek",
     supportLead: "Berlin Wall Explorer için yardıma mı ihtiyacınız var? Destek ekibimizle iletişime geçin.",
     supportContactTitle: "İletişim E-postası",
@@ -175,7 +174,8 @@ const t = {
       "Lütfen cihaz modelinizi, işletim sistemi sürümünü ve sorunun kısa açıklamasını ekleyin.",
     supportResponseTitle: "Yanıt Süresi",
     supportResponseBody: "Genellikle 1-2 iş günü içinde yanıt veriyoruz.",
-    updated: "Son güncelleme: Nisan 2026",
+    updated: "Son güncelleme: Eylül 2026",
+    pp4List4: "TelemetryDeck üzerinden anonim kullanım istatistikleri: uygulama dili, duvarın hangi tarafında olduğun (Doğu, Batı, DDR, Berlin dışı), duvara yaklaşık uzaklık, cihaz modeli, sistem ve uygulama sürümü. Cihazın, sana geri izlenemeyen tuzlanmış bir özetle temsil edilir. Uygulamalar arası izleme yok, reklam yok.",
   },
   de: {
     home: "Startseite",
@@ -216,7 +216,7 @@ const t = {
       "Standortfreigabe kann jederzeit in den Gerateeinstellungen deaktiviert werden. Dann funktionieren manche Funktionen nicht.",
     p5Title: "5) Kontakt",
     p5Body: "Bei Fragen zum Datenschutz kontaktiere den Herausgeber uber offizielle Kanale.",
-    updated: "Zuletzt aktualisiert: April 2026",
+    updated: "Zuletzt aktualisiert: September 2026",
   },
   es: {
     home: "Inicio",
@@ -257,7 +257,7 @@ const t = {
       "Puedes revocar el permiso de ubicacion en la configuracion del dispositivo en cualquier momento.",
     p5Title: "5) Contacto",
     p5Body: "Para dudas de privacidad, contacta al editor por canales oficiales.",
-    updated: "Ultima actualizacion: abril de 2026",
+    updated: "Ultima actualizacion: septiembre de 2026",
   },
   fr: {
     home: "Accueil",
@@ -298,7 +298,7 @@ const t = {
       "Vous pouvez revoquer l'autorisation de localisation dans les reglages de l'appareil a tout moment.",
     p5Title: "5) Contact",
     p5Body: "Pour toute question, contactez l'editeur via les canaux officiels.",
-    updated: "Derniere mise a jour : avril 2026",
+    updated: "Derniere mise a jour : septembre 2026",
   },
   it: {
     home: "Home",
@@ -338,7 +338,7 @@ const t = {
     p4Body: "Puoi disattivare il permesso posizione nelle impostazioni del dispositivo in qualsiasi momento.",
     p5Title: "5) Contatto",
     p5Body: "Per domande privacy, contatta l'editore tramite canali ufficiali.",
-    updated: "Ultimo aggiornamento: aprile 2026",
+    updated: "Ultimo aggiornamento: settembre 2026",
   },
   pt: {
     home: "Inicio",
@@ -378,7 +378,7 @@ const t = {
     p4Body: "Voce pode revogar a permissao de localizacao nas configuracoes do dispositivo a qualquer momento.",
     p5Title: "5) Contato",
     p5Body: "Para duvidas de privacidade, contate o publicador pelos canais oficiais.",
-    updated: "Ultima atualizacao: abril de 2026",
+    updated: "Ultima atualizacao: setembro de 2026",
   },
   ru: {
     home: "Glavnaya",
@@ -418,7 +418,7 @@ const t = {
     p4Body: "Vy mozhete otklyuchit dostup k geolokatsii v nastroikah ustroystva v lyuboy moment.",
     p5Title: "5) Kontakt",
     p5Body: "Po voprosam konfidentsialnosti obrashchaytes k izdatelyu po ofitsialnym kanalam.",
-    updated: "Obnovleno: aprel 2026",
+    updated: "Последнее обновление: сентябрь 2026",
   },
   uk: {
     home: "Golovna",
@@ -458,7 +458,7 @@ const t = {
     p4Body: "Vy mozhete vymknuty dozvil na geolokatsiyu v nalashtuvannyakh prystroyu u bud-yakyy moment.",
     p5Title: "5) Kontakt",
     p5Body: "Z pytan konfidentsiynosti zvertaytesya do vydavtsya ofitsiynymy kanalami.",
-    updated: "Ostanne onovlennya: kviten 2026",
+    updated: "Останнє оновлення: вересень 2026",
   },
   ar: {
     home: "Alraisiya",
@@ -498,7 +498,7 @@ const t = {
     p4Body: "Yumkinuk ilgha idhn almawqi fi ay waqt min iidadat aljihaz.",
     p5Title: "5) Tawasul",
     p5Body: "Liayi asila hawl alkhususiya, tawasal maa nashir altatbiq min alqanaat alrasmiya.",
-    updated: "Akher tahdith: Abril 2026",
+    updated: "آخر تحديث: سبتمبر 2026",
   },
 };
 
