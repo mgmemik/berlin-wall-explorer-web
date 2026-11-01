@@ -93,8 +93,8 @@ const t = {
       "Please include your device model, OS version, and a short description of the issue.",
     supportResponseTitle: "Response Time",
     supportResponseBody: "We usually respond within 1-2 business days.",
-    updated: "Last updated: September 2026",
-    pp4List4: "Anonymous usage statistics via TelemetryDeck: app language, which side of the Wall you are on (East, West, GDR, outside Berlin), roughly how far the Wall is, device model, system and app version. Your device is represented by a salted hash that cannot be traced back to you. No tracking across apps, no advertising.",
+    updated: "Last updated: November 2026",
+    pp4List4: "Anonymous usage statistics via TelemetryDeck: app language, which side of the Wall you are on (East, West, GDR, outside Berlin), roughly how far the Wall is, device model, system and app version, and once per installation whether this copy was bought in the store and roughly when (to count sales; never payment details). Your device is represented by a salted hash that cannot be traced back to you. No tracking across apps, no advertising.",
   },
   tr: {
     home: "Ana Sayfa",
@@ -174,8 +174,8 @@ const t = {
       "Lütfen cihaz modelinizi, işletim sistemi sürümünü ve sorunun kısa açıklamasını ekleyin.",
     supportResponseTitle: "Yanıt Süresi",
     supportResponseBody: "Genellikle 1-2 iş günü içinde yanıt veriyoruz.",
-    updated: "Son güncelleme: Eylül 2026",
-    pp4List4: "TelemetryDeck üzerinden anonim kullanım istatistikleri: uygulama dili, duvarın hangi tarafında olduğun (Doğu, Batı, DDR, Berlin dışı), duvara yaklaşık uzaklık, cihaz modeli, sistem ve uygulama sürümü. Cihazın, sana geri izlenemeyen tuzlanmış bir özetle temsil edilir. Uygulamalar arası izleme yok, reklam yok.",
+    updated: "Son güncelleme: Kasım 2026",
+    pp4List4: "TelemetryDeck üzerinden anonim kullanım istatistikleri: uygulama dili, duvarın hangi tarafında olduğun (Doğu, Batı, DDR, Berlin dışı), duvara yaklaşık uzaklık, cihaz modeli, sistem ve uygulama sürümü; kurulum başına bir kez de bu kopyanın mağazadan satın alınıp alınmadığı ve kabaca ne zaman alındığı (satışları saymak için; ödeme bilgisi asla). Cihazın, sana geri izlenemeyen tuzlanmış bir özetle temsil edilir. Uygulamalar arası izleme yok, reklam yok.",
   },
   de: {
     home: "Startseite",
