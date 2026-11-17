@@ -60,7 +60,7 @@ const t = {
     pp2List2: "Show nearby photos, museums, memorials, landmarks, and viewpoints.",
     pp2List3: "Persist language and basic app preferences and understand audience segments.",
     pp3Title: "3) API Calls and Third Parties",
-    pp3Body: "To show nearby photos and places, the app sends the map position to our own server, which uses it only to answer that request. For anonymous usage statistics we use TelemetryDeck (TelemetryDeck GmbH, Germany). It receives which screens and features are used, never your location, name, contacts or photos.",
+    pp3Body: "Photos, places and their images are stored inside the app, so your location never leaves your phone and no mobile data is needed to show them. For anonymous usage statistics we use TelemetryDeck (TelemetryDeck GmbH, Germany). It receives which screens and features are used, never your location, name, contacts or photos.",
     pp4Title: "4) Data Categories",
     pp4Body:
       "The app limits collection to data needed for app operation and anonymized analytics.",
@@ -141,7 +141,7 @@ const t = {
     pp2List2: "Yakındaki fotoğraf, müze, anıt, simge ve manzara noktalarını göstermek.",
     pp2List3: "Dil ve temel uygulama tercihlerini saklamak ve kitle segmentlerini anlamak.",
     pp3Title: "3) API Çağrıları ve Üçüncü Taraflar",
-    pp3Body: "Yakındaki fotoğrafları ve mekânları göstermek için uygulama harita konumunu kendi sunucumuza gönderir; sunucu bu bilgiyi yalnızca o isteği yanıtlamak için kullanır. Anonim kullanım istatistikleri için TelemetryDeck (TelemetryDeck GmbH, Almanya) kullanıyoruz. Ona yalnızca hangi ekranların ve özelliklerin kullanıldığı gider; konumun, adın, kişilerin ya da fotoğrafların asla gitmez.",
+    pp3Body: "Fotoğraflar, mekânlar ve görselleri uygulamanın içinde saklanır; konumun telefonundan hiç çıkmaz ve bunları göstermek için mobil veri gerekmez. Anonim kullanım istatistikleri için TelemetryDeck (TelemetryDeck GmbH, Almanya) kullanıyoruz. Ona yalnızca hangi ekranların ve özelliklerin kullanıldığı gider; konumun, adın, kişilerin ya da fotoğrafların asla gitmez.",
     pp4Title: "4) Veri Kategorileri",
     pp4Body:
       "Uygulama, yalnızca hizmetin çalışması ve anonim analitik için gerekli olan verileri toplar ve işler.",
